@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina Web - Blog Epicode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/FE-S1-L4-Esercizio/assets/css/reset.css" />
+    <link rel="stylesheet" href="/FE-S1-L4-Esercizio/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/FE-S1-L4-Esercizio/assets/css/font-awesome.css"
+    />
+    <!-- link per font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="/FE-S1-L4-Esercizio/assets/img/logo.svg"
+        alt="Logo Epicode"
+      />
+      <div>Epicode - Il Blog dei Developers</div>
+      <nav>
+        <button>
+          <i class="fas fa-angle-double-right"></i>Home<i
+            class="fas fa-angle-double-left"
+          ></i>
+        </button>
+        <button>
+          <i class="fas fa-angle-double-right"></i>Articoli<i
+            class="fas fa-angle-double-left"
+          ></i>
+        </button>
+        <button>
+          <i class="fas fa-angle-double-right"></i>Lavora con Noi<i
+            class="fas fa-angle-double-left"
+          ></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Come creare un template per i post</h1>
+      <div>
+        <i class="far fa-compass"></i>di Mario Rossi-
+        <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+      </div>
+
+      <div>
+        La prima cosa da fare è suddividere in blocchi logici la pagina,
+        identificando le parti comuni da apllicare a tutte le pagine
+      </div>
+      <ul>
+        <div>Le varie aree saranno quindi suddivise in:</div>
+        <li>Contenuti di intestazione del tag <span>< header ></span>;</li>
+        <li>
+          Contenuti centrali variavili del tag <span>< main ></span>(corpo
+          principale)
+        </li>
+        <li>
+          Contenuti di fine pagina comuni, da inserire nel tag
+          <span>< footer ></span>
+        </li>
+      </ul>
+
+      <ol>
+        <div>Formattazione del codice</div>
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le
+        parti da
+        <strong>selezionare con i CSS</strong
+        >. Percò i passi saranno:
+        <li>
+          Progettaree il markup assegnando ad ogni specifico testo il tag
+          appropriato
+        </li>
+        <li>
+          Scrivere L'HTML dei tag esterni a quelli interni e dall'alto verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <div>
+        Lapplicazione degli stili CSS è cresciuta negli anni fino a raggiungere
+        la diffusione pressochè totale.
+      </div>
+      <table>
+        <thead>
+          <caption>
+            Diffusione dei CSS
+          </caption>
+          <tr>
+            <!-- table row -->
+            <th>
+              Anno
+              <!-- nomi dei campi -->
+            </th>
+            <th>% di utilizzo</th>
+            <th>Supporto browser</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td>2000</td>
+          <td>20%</td>
+          <td>17%</td>
+          <tr class="table">
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr class="table">
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        Un test di validazione potrà essere fatto tarime
+        <a href="Link Esterno">il tool online</a> dedicato allo scopo. Una volta
+        ottimizzato il tutto,avremo raggiunto il nostro obbiettivo ed essere
+        stati dei veri developers come loro:
+        <div id="video">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/P9DdJb_lqkY"
+            title="Where developers gather together | dotConferences are coming!"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <form>
+      <h1>NOVItà</h1>
+      <div>
+        Vuoi Rimanere aggiornato sulle novità del Blog? Iscriviti alla nostra
+        newsletter:
+      </div>
+      <div>
+        <input type="text" placeholder="Inserisci la tua e-mail" />
+        <button>Iscriviti!</button>
+      </div>
+    </form>
+    <footer>
+      <h3>Articoli correlati</h3>
+
+      <div class="commento">
+        <div>Validare il codice HTML</div>
+        <div>Catgoria: Develop</div>
+        <div>Data: 18-09-2020</div>
+      </div>
+      <div class="commento">
+        <div>Correggere la sintassi</div>
+        <div>Categoria: develop</div>
+        <div>data:16-9-2020</div>
+      </div>
+      <div class="commento">
+        <div>meno kb</div>
+        <div>Categoria: ottimizzazione</div>
+        <div>data:16-9-2020</div>
+      </div>
+    </footer>
+    <div>
+      Testata online di Mario Rossi, registrata con prot n.213/2018 - via Luigi
+      Einaudi 2 - Milano. P.IVA 00112233
+      <a href="#">info@epicode.school</a>
+    </div>
+  </body>
+</html>

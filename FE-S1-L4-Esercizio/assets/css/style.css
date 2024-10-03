@@ -1,0 +1,188 @@
+/* IMPOSTAZIONI GENERALI */
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body{
+    width: 390px;
+    background-image: url(/FE-S1-L4-Esercizio/assets/img/sfondo.png);
+    background-size: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold; /* 700, cioè "grassetto" */
+    margin-bottom: 0.5em;
+   padding-top: 8px;
+     /* porto il testo in maiuscolo */
+  }
+/* HEADER */
+header{
+    width: 90%;
+    height: 200px;
+    background: rgb(0,34,36);
+background: linear-gradient(0deg, rgba(0,34,36,1) 0%, rgba(56,142,193,1) 59%, rgba(50,120,159,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 5px; 
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+#logo{
+    margin-top: 25px;
+    width: 50%;
+}
+header div{
+padding: 10px ;
+color: white;
+font-size: medium;
+font-weight: 500 ;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+nav button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin: 2px 2px;
+}
+
+/* MAIN */
+main{
+    width: 80%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    /* ELEMENTI NEL MAIN - ARTICLE */
+}
+.fas{
+    margin: 3px;
+}
+main div{
+    margin: 10px;
+}
+
+ul{
+list-style-type: circle;
+padding: 5px;
+}
+ol{
+    list-style: decimal;
+}
+ul span{
+    background-color: rgb(182, 182, 182);
+    border: solid 0px transparent;
+    height: 10px ;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+ul,ol li{
+    padding: 5px;
+}
+ol div{
+    margin: 0;
+    padding: 0;
+    }
+    ol strong{
+        color: blueviolet;
+        font-weight: bold;
+    }
+    caption{
+        font-weight: bold;
+    }
+    table{
+        width: 90%;
+    }
+tbody th{
+    background-color: blue;
+    height: 35px;
+    color: white;
+    text-align: center;
+    }
+tbody td,tr{
+    height: 15px;
+    padding: 5px;
+    border-top: 1px;
+    border: solid rgb(244, 241, 241);
+}
+.table{background-color: rgb(186, 186, 186);}
+
+#video{
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    border-radius: 300px;
+}
+
+
+
+/* FORM */
+form{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    background-color: rgb(168, 163, 163);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+form h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 20px;
+}
+form div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+form input{
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+form button{
+    background-color: rgb(0, 132, 255);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+footer h3{
+    text-align: center;
+    font-size: large;
+    font-weight: 300
+}
+.commento{
+    height: 50px;
+    width: 70px;
+}
